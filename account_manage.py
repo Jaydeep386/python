@@ -45,17 +45,17 @@ class Account:
 
 
 if __name__ == '__main__':
-    tim = Account("Tim", 0)
-    tim.show_balance()
+    kim = Account("Kim", 0)
+    kim.show_balance()
 
-    tim.deposit(1000)
-    # tim.show_balance()
-    tim.withdraw(500)
-    # tim.show_balance()
+    kim.deposit(1000)
+    # kim.show_balance()
+    kim.withdraw(500)
+    # kim.show_balance()
 
-    tim.withdraw(2000)
+    kim.withdraw(2000)
 
-    tim.show_transactions()
+    kim.show_transactions()
 
     jaydeep = Account("Jaydeep", 800)
     jaydeep.deposit(100)
